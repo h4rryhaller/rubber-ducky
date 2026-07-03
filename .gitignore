@@ -1,0 +1,16 @@
+# Archivos temporales de compilación de Arduino
+/build/
+/bin/
+
+# Archivos de configuración del IDE de Arduino v2
+.theia/
+arduino.cli.config.json
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales o respaldos de editores
+*.bak
+*.tmp
+*.swp
