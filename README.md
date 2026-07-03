@@ -6,7 +6,7 @@ rubberducky wiki -- Payload hide cmd window [https://github.com/hak5darren/USB-R
 Basado en la placa china DigiSpark ATTiny85 USB Modelo A
 
 ## Cambios
-* Reemplazamos los ficheros de configuración de teclado americano por el español https://github.com/Dasor/digispark-keyboard-layout-Spanish
+* Reemplazamos los ficheros la librería DigisparkKeyboard con la configuración de teclado americano por la española  https://github.com/Dasor/digispark-keyboard-layout-Spanish. Ruta ~/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/  Ficheros a reemplazar DigiKeyboard.h y scancode-ascii-table.h
 * Exfiltramos los datos en webhook.cool
 * Encendemos el led rojo (pin 1) muy atenuado por discrección. Cuando la exfiltración finaliza se apaga el led.
 
@@ -17,4 +17,6 @@ Configura el archivo `config.h` con tu dirección de webhook, el pin de tu placa
 Genera un identificador en https://webhook.cool 
 Esa será la url donde hagas tus peticiones https://tu-identificador/webhook.cool
 Tras la exfiltración puedes consultar tus datos en https://webhook.cool/at/tu-identificador
-Los datos se borran tras 7 días sin uso de la cuenta. Para evitarlo puedes crear una cuenta en https://crontap.apihustle.com/crontap/ que, en mi caso, he configurado para que haga dos peticiones por semana. 
+Los datos se borran tras 7 días sin uso de la cuenta. Para evitarlo puedes crear una cuenta en https://crontap.apihustle.com/crontap/ que, en mi caso, he configurado para que haga dos peticiones por semana.
+Algo ha fallado, o webhook o apihustle!!!!
+

